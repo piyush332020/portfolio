@@ -1,0 +1,1266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Kumar Singh - AI/ML Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <!-- Cursor Follower -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation with Theme Toggle -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Piyush Kumar Singh</span>
+                <div class="logo-subtitle">Full Stack Developer</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-text="Home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-text="About">About</a></li>
+                <li><a href="#skills" class="nav-link" data-text="Skills">Skills</a></li>
+                <li><a href="#experience" class="nav-link" data-text="Experience">Experience</a></li>
+                <li><a href="#projects" class="nav-link" data-text="Projects">Projects</a></li>
+                <li><a href="#certifications" class="nav-link" data-text="Certifications">Certifications</a></li>
+                <li><a href="#contact" class="nav-link" data-text="Contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-btn">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <!-- Home/Landing Section -->
+    <section id="home" class="section">
+        <div class="animated-bg">
+            <div class="bg-animation"></div>
+            <div class="floating-elements">
+                <div class="floating-element">AI</div>
+                <div class="floating-element">ML</div>
+                <div class="floating-element">Python</div>
+                <div class="floating-element">React</div>
+                <div class="floating-element">Django</div>
+                <div class="floating-element">TensorFlow</div>
+            </div>
+        </div>
+        
+        <div class="landing">
+            <div class="hero-content">
+                <div class="greeting-container">
+                    <div class="greeting-text">Hello, I'm</div>
+                </div>
+                <div class="name-container">
+                    <h1 class="hero-name" id="name-apart">
+                        <span class="name-part" data-letter="P">P</span>
+                        <span class="name-part" data-letter="i">i</span>
+                        <span class="name-part" data-letter="y">y</span>
+                        <span class="name-part" data-letter="u">u</span>
+                        <span class="name-part" data-letter="s">s</span>
+                        <span class="name-part" data-letter="h">h</span>
+                        <span class="space"></span>
+                        <span class="name-part" data-letter="K">K</span>
+                        <span class="space"></span>
+                        <span class="name-part" data-letter="u">S</span>
+                        <span class="name-part" data-letter="m">I</span>
+                        <span class="name-part" data-letter="a">N</span>
+                        <span class="name-part" data-letter="r">G</span>
+                        <span class="name-part" data-letter="r">H</span>
+
+                    </h1>
+                </div>
+                
+                <div class="role-container">
+                    <div class="role-prefix">I'm a</div>
+                    <div class="role-carousel">
+                        <div class="role-item active">AI/ML Enthusiast</div>
+                        <div class="role-item">Frontend Developer</div>
+                        <div class="role-item">Python Developer</div>
+                        <div class="role-item">Full-Stack Developer</div>
+                        <div class="role-item">Computer Vision Expert</div>
+                    </div>
+                </div>
+                
+                <div class="hero-description">
+                    <p class="typed-text">Passionate about transforming complex problems into user-friendly applications through innovative AI-powered solutions and cutting-edge web technologies.</p>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="20">20</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="4">4</span>
+                        <span class="stat-label">Certifications</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-target="3">3</span>
+                        <span class="stat-label">Months Experience</span>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <button onclick="scrollToSection('projects')" class="btn-primary">
+                        <span>View My Work</span>
+                        <div class="btn-ripple"></div>
+                    </button>
+                    <button onclick="downloadResume()" class="btn-secondary">
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </button>
+                    <button onclick="scrollToSection('contact')" class="btn-tertiary">
+                        <span>Let's Talk</span>
+                        <i class="fas fa-comments"></i>
+                    </button>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://github.com/piyush332020" target="_blank" class="social-link github">
+                        <i class="fab fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/piyush-kumar-singh-768341299/" target="_blank" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                    <a href="mailto:piyuhsingh7984@gmail.com" class="social-link email">
+                        <i class="fas fa-envelope"></i>
+                        <span class="tooltip">Email</span>
+                    </a>
+                    <a href="tel:8090383906" class="social-link phone">
+                        <i class="fas fa-phone"></i>
+                        <span class="tooltip">Call</span>
+                    </a>
+                        <a href="https://www.instagram.com/piyush_332020/" class="social-link instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span class="tooltip">Instagram</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="profile-container">
+                    <div class="profile-ring">
+                        <div class="profile-avatar">
+                            <div class="avatar-content">
+                                <img class="img"src="https://i.postimg.cc/R045rCBD/Gemini-Generated-Image-1hq73a1hq73a1hq7.png" contrast-150 alt="">
+                            </div>
+                        </div>
+                        <div class="orbital-ring">
+                        <div class="orbital-elements">
+                                <div class="orbital-item" style="--angle: 0deg">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="orbital-item" style="--angle: 60deg">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <div class="orbital-item" style="--angle: 120deg">
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                                <div class="orbital-item" style="--angle: 180deg">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="orbital-item" style="--angle: 240deg">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <div class="orbital-item" style="--angle: 300deg">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="code-snippet">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="code-title">piyush_portfolio.py</div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="code-keyword">class</span> 
+                            <span class="code-class">Developer</span>
+                            <span class="code-punctuation">:</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-indent">    </span>
+                            <span class="code-keyword">def</span> 
+                            <span class="code-function">__init__</span>
+                            <span class="code-punctuation">(self):</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-indent">        </span>
+                            <span class="code-property">self.name</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-string">"Piyush"</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-indent">        </span>
+                            <span class="code-property">self.skills</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-bracket">[</span>
+                            <span class="code-string">"AI/ML"</span>
+                            <span class="code-bracket">]</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-subtitle">Get to know me better</div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3 class="about-headline">Passionate Computer Science Engineering Student</h3>
+                        <p class="about-lead">With hands-on experience in full-stack web development, artificial intelligence, and machine learning applications. I love turning complex problems into elegant solutions.</p>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-grid">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Location</span>
+                                    <span class="detail-value">Greater Noida, UP</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Education</span>
+                                    <span class="detail-value">B.Tech CSE (2023-2027)</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Projects</span>
+                                    <span class="detail-value">20+ Completed</span>
+                                </div>
+                            </div>
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-language"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Languages</span>
+                                    <span class="detail-value">Hindi, English</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="expertise-areas">
+                        <h4>My Expertise</h4>
+                        <div class="expertise-list">
+                            <div class="expertise-item">
+                                <i class="fas fa-robot"></i>
+                                <span>AI & Machine Learning</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Full-Stack Development</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fas fa-eye"></i>
+                                <span>Computer Vision</span>
+                            </div>
+                            <div class="expertise-item">
+                                <i class="fas fa-mobile-alt"></i>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-visual">
+                    <div class="achievement-cards">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <span class="achievement-number">7+</span>
+                                <span class="achievement-label">Certifications</span>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <span class="achievement-number">2</span>
+                                <span class="achievement-label">Months Internship</span>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <span class="achievement-number">10+</span>
+                                <span class="achievement-label">GitHub Repos</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-preview">
+                        <div class="skill-ring">
+                            <div class="skill-progress" data-skill="90">
+                                <span class="skill-label">Python</span>
+                            </div>
+                        </div>
+                        <div class="skill-ring">
+                            <div class="skill-progress" data-skill="85">
+                                <span class="skill-label">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skill-ring">
+                            <div class="skill-progress" data-skill="80">
+                                <span class="skill-label">AI/ML</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="section-subtitle">My technical expertise and proficiency</div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skills-grid">
+                    <div class="skill-category" data-category="programming">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Programming Languages</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="75">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">C++</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="65">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="aiml">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <h3>AI/ML Frameworks</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="50">
+                                <div class="skill-info">
+                                    <span class="skill-name">TensorFlow</span>
+                                    <span class="skill-percentage">50%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="50">
+                                <div class="skill-info">
+                                    <span class="skill-name">PyTorch</span>
+                                    <span class="skill-percentage">50%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">OpenCV</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">Scikit-learn</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="web">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <h3>Web Technologies</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="60">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percentage">60%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="45">
+                                <div class="skill-info">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-percentage">45%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="98">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-percentage">98%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="skill-item" data-skill="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-category="tools">
+                        <div class="category-header">
+                            <div class="category-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <h3>Tools & Databases</h3>
+                            <div class="category-line"></div>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item" data-skill="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git/GitHub</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="75">
+                                <div class="skill-info">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-skill="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">VS Code</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="section-subtitle">My professional journey and growth</div>
+            </div>
+            
+            <div class="experience-timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item active">
+                    <div class="timeline-marker">
+                        <div class="marker-ring"></div>
+                        <div class="marker-dot"></div>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">Latest</div>
+                        <div class="timeline-header">
+                            <h3>Software Development Intern</h3>
+                            <h4>CodeTech IT Solutions</h4>
+                            <span class="timeline-date">
+                                <i class="fas fa-calendar-alt"></i>
+                                April 2025 - June 2025
+                            </span>
+                        </div>
+                        <div class="timeline-description">
+                            <p>Enhanced my development skills through hands-on experience with modern web technologies and collaborative software development practices.</p>
+                        </div>
+                        <div class="timeline-achievements">
+                            <div class="achievement">
+                                <i class="fas fa-code"></i>
+                                <span>Developed and maintained web applications using HTML5, CSS3, and JavaScript</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-users"></i>
+                                <span>Collaborated with development teams to implement software solutions</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-rocket"></i>
+                                <span>Optimized application performance and user experience</span>
+                            </div>
+                            <div class="achievement">
+                                <i class="fas fa-book"></i>
+                                <span>Contributed to best practices documentation and code reviews</span>
+                            </div>
+                        </div>
+                        <div class="timeline-technologies">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">Agile</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-subtitle">Showcasing my best work and innovations</div>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>AI-Powered Measurement</h4>
+                                <p>Computer Vision Technology</p>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-tshirt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Cloth Size Measurement App</h3>
+                            <div class="project-status">Featured</div>
+                        </div>
+                        <p>Innovative AI-powered application using computer vision to measure body dimensions through webcam input with real-time pose detection and accurate size calculations.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-eye"></i>
+                                <span>Real-time Pose Detection</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-ruler"></i>
+                                <span>Accurate Measurements</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-camera"></i>
+                                <span>Webcam Integration</span>
+                            </div>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyQt5</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">NumPy</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/piyush332020" class="project-btn primary">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>Management System</h4>
+                                <p>Full-Stack Solution</p>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Hostel Management System</h3>
+                            <div class="project-status">Complete</div>
+                        </div>
+                        <p>Comprehensive web-based system streamlining administrative operations with user authentication, room allocation, fee management, and student portal.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-users"></i>
+                                <span>User Management</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-bed"></i>
+                                <span>Room Allocation</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-rupee-sign"></i>
+                                <span>Fee Management</span>
+                            </div>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Tailwind</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/piyush332020" class="project-btn primary">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- <div class="project-card" data-category="ai">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>Civic Technology</h4>
+                                <p>AI Classification System</p>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Civic Issues Classifier</h3>
+                            <div class="project-status">Innovative</div>
+                        </div>
+                        <p>AI-powered web application for classifying citizen-reported problems through video uploads, targeting government transparency and efficient issue resolution.</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-video"></i>
+                                <span>Video Classification</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>Statistics Dashboard</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-government"></i>
+                                <span>Government Portal</span>
+                            </div>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/piyush332020" class="project-btn primary">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="overlay-content">
+                                <h4>Progress Website</h4>
+                                <p>Frontend Masterpiece</p>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fa-solid fa-briefcase"></i>                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <h3>Portfolio Website</h3>
+                            <div class="project-status">Popular</div>
+                        </div>
+                        <p>A modern, animated, responsive portfolio showcasing AI/ML, full-stack skills, with theme toggle with light and dark modes</p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fa-solid fa-arrow-pointer"></i>
+                                <span>Custom animated cursor with follower effect</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fa-solid fa-sun"></i>
+                                <span>Dark/light theme</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fa-regular fa-envelope"></i>                                <span>Role carousel </span>
+                            </div>
+                        </div>
+                        <div class="project-technologies">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com/piyush332020" class="project-btn primary">
+                                <i class="fab fa-github"></i>
+                                <span>View Code</span>
+                            </a>
+                            <a href="#" class="project-btn secondary">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Live Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Certifications & Achievements</h2>
+                <div class="section-subtitle">Professional certifications and learning milestones</div>
+            </div>
+            
+            <div class="certifications-container">
+                <div class="certifications-grid">
+                    <div class="certification-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="cert-badge">Completed</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>ReactJS Course Completion</h3>
+                            <p class="cert-issuer">Infosys Springboard</p>
+                            <p class="cert-description">Comprehensive course covering React fundamentals, hooks, state management, and modern development practices.</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">React</span>
+                                <span class="skill-tag">JSX</span>
+                                <span class="skill-tag">Hooks</span>
+                                <span class="skill-tag">State Management</span>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-date">June 2025</span>
+                            <div class="cert-actions">
+                                <button class="cert-btn">
+                                    <i class="fas fa-certificate"></i>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="cert-badge">Verified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Cybersecurity Essentials</h3>
+                            <p class="cert-issuer">Cisco Networking Academy</p>
+                            <p class="cert-description">Essential cybersecurity concepts, threat landscape, and security best practices for modern applications.</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">Security</span>
+                                <span class="skill-tag">Networking</span>
+                                <span class="skill-tag">Threats</span>
+                                <span class="skill-tag">Protection</span>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-date">July 2025</span>
+                            <div class="cert-actions">
+                                <button class="cert-btn">
+                                    <i class="fas fa-certificate"></i>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="cert-badge">Certified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>JavaScript Web Development</h3>
+                            <p class="cert-issuer">SkillEcted Campus Program</p>
+                            <p class="cert-description">Advanced JavaScript concepts, DOM manipulation, async programming, and modern ES6+ features.</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">ES6+</span>
+                                <span class="skill-tag">DOM</span>
+                                <span class="skill-tag">Async</span>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-date">May 2025</span>
+                            <div class="cert-actions">
+                                <button class="cert-btn">
+                                    <i class="fas fa-certificate"></i>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="certification-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="cert-badge">Excellence</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Advanced Python Programming</h3>
+                            <p class="cert-issuer">Galgotias College of Engineering</p>
+                            <p class="cert-description">Comprehensive Python programming including OOP, data structures, algorithms, and application development.</p>
+                            <div class="cert-skills">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">OOP</span>
+                                <span class="skill-tag">Data Structures</span>
+                                <span class="skill-tag">Algorithms</span>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-date">2024</span>
+                            <div class="cert-actions">
+                                <button class="cert-btn">
+                                    <i class="fas fa-certificate"></i>
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="certification-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                            <i class="fab fa-react"></i>
+                            </div>
+                            <div class="cert-badge">Certified</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Full-Stack Web Development</h3>
+                            <p class="cert-issuer">Coursera / Johns Hopkins</p>
+                            <p class="cert-description">
+                            Comprehensive training in HTML, CSS, JavaScript, and React for modern web applications.
+                            </p>
+                            <div class="cert-skills">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-date">2025</span>
+                            <div class="cert-actions">
+                            <button class="cert-btn">
+                                <i class="fas fa-certificate"></i>
+                                View Certificate
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="certification-card">
+                        <div class="cert-header">
+                            <div class="cert-icon">
+                            <i class="fab fa-java"></i>
+                            </div>
+                            <div class="cert-badge">Value Added</div>
+                        </div>
+                        <div class="cert-content">
+                            <h3>Java Spring & React: Build Scalable Web Apps</h3>
+                            <p class="cert-issuer">Galgotias College of Engineering & Technology</p>
+                            <p class="cert-description">
+                            Completed a value-added course on Java Spring backend and React frontend for building scalable web applications (Academic Session 2024–25).
+                            </p>
+                            <div class="cert-skills">
+                            <span class="skill-tag">Java Spring</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Web Architecture</span>
+                            <span class="skill-tag">Scalability</span>
+                            </div>
+                        </div>
+                        <div class="cert-footer">
+                            <span class="cert-date">2025</span>
+                            <div class="cert-actions">
+                            <button class="cert-btn">
+                                <i class="fas fa-certificate"></i>
+                                View Certificate
+                            </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">06</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-subtitle">Let's collaborate and build something amazing together</div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Ready to start a conversation?</h3>
+                        <p>I'm always interested in hearing about new opportunities, innovative projects, and collaborations. Whether you have a project in mind, need technical consultation, or just want to connect, I'd love to hear from you!</p>
+                    </div>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <span class="method-label">Email</span>
+                                <span class="method-value">piyuhsingh7984@gmail.com</span>
+                                <span class="method-description">Best for detailed discussions</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-content">
+                                <span class="method-label">Phone</span>
+                                <span class="method-value">+91 8090XXXXXX</span>
+                                <span class="method-description">Available for calls 9 AM - 8 PM</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <span class="method-label">Location</span>
+                                <span class="method-value">Greater Noida, UP</span>
+                                <span class="method-description">Open for local meetups</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="availability-status">
+                        <div class="status-indicator">
+                            <div class="status-dot"></div>
+                            <span>Available for new opportunities</span>
+                        </div>
+                        <p>Currently seeking internship and full-time opportunities in AI/ML and Full-Stack Development.</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                        <div class="form-header">
+                            <h4>Send me a message</h4>
+                            <p>I'll get back to you within 24 hours</p>
+                        </div>
+                    <form id="contact-form" 
+                    class="contact-form"
+                    action="https://formspree.io/f/xnngjdzk" 
+                    method="POST">    
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <div class="form-focus"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <div class="form-focus"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="topic">Select a topic</option>
+                                <option value="collaboration">Project Collaboration</option>
+                                <option value="internship">Internship Opportunity</option>
+                                <option value="freelance">Freelance Project</option>
+                                <option value="consultation">Technical Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <div class="form-focus"></div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="how I can help you..."></textarea>
+                            <div class="form-focus"></div>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading">Sending...</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                </form>
+                    
+                    <div id="form-success" class="form-message success">
+                        <div class="message-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <div class="message-content">
+                            <h4>Message sent successfully!</h4>
+                            <p class="para">Thank you for reaching out. I'll get back to you soon.</p>
+                        </div>
+                    </div>
+                    
+                    <div id="form-error" class="form-message error">
+                        <div class="message-icon">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </div>
+                        <div class="message-content">
+                            <h4>Oops! Something went wrong.</h4>
+                            <p>Please try again or contact me directly via email.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <h3>Piyush Kumar Singh</h3>
+                        <p>AI/ML Enthusiast & Full-Stack Developer</p>
+                        <div class="footer-social">
+                            <a href="https://github.com/piyush332020" class="social-link github" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/piyush-kumar-singh-768341299/" class="social-link linkedin"target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:piyuhsingh7984@gmail.com" class="social-link email">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="tel:8090383906" class="social-link phone">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                                                </a>
+                            <a href="https://www.instagram.com/piyush_332020/" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                                <span class="tooltip">Instagram</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Services</h4>
+                            <ul>
+                                <li><a href="#contact">Web Development</a></li>
+                                <li><a href="#contact">AI/ML Solutions</a></li>
+                                <li><a href="#contact">Technical Consulting</a></li>
+                                <li><a href="#contact">Project Collaboration</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li>Greater Noida, UP</li>
+                                <li>+91 8090XXXXXX</li>
+                                <li>piyuhsingh7984@gmail.com</li>
+                                <li>Available for opportunities</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <div class="footer-copyright">
+                        <p>&copy; 2025 Piyush Kumar Singh. All rights reserved.</p>
+                        <p>Designed & Developed with <i class="fas fa-heart"></i> by Piyush</p>
+                    </div>
+                    <div class="footer-tech">
+                        <span>Built with HTML, CSS & JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
